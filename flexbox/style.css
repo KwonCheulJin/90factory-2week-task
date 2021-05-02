@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------- */
+/* 헤더 (title)   */
+/* ----------------- */
+
+header {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  margin-top: 50px;
+}
+.maintitle {
+  font-size: 3em;
+}
+.subtitle {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+/* ----------------- */
+/* flexbox   */
+/* ----------------- */
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 800;
+  border: 1px solid #000000;
+  border-radius: 1rem;
+}
+
+.project-section {
+  margin: 0px 80px;
+}
+
+.project-title {
+  margin-top: 1rem;
+  font-size: 1.5em;
+}
+.project-info {
+  font-size: 1.1em;
+  margin-top: 30px;
+}
+
+.project-teg {
+  display: flex;
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+
+.project-teg a {
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.project-img img {
+  width: 750px;
+  margin: 0px 80px;
+}
+
+/* a {
+  display: flex;
+  justify-content: flex-start;
+  width: 90px;
+  margin: 0.5rem 0.5rem;
+} */
+/* ----------------- */
+/* 링크버튼 */
+/* ----------------- */
+
+a:link,
+a:visited {
+  padding: 10px 30px;
+  font-weight: 300;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border: none;
+  background-color: #ff7f00;
+  border-radius: 20px;
+  font-size: 1.2em;
+  transition: background-color 0.4s, border 0.4s, color o.4s;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(238, 238, 238);
+  border: 2px solid #ff7f00;
+  color: #ff7f00;
+  border-radius: 20px;
+  font-size: 1.2em;
+}
+
+/* ----------------- */
+/* 푸터  */
+/* ----------------- */
+
+footer {
+  background-color: #333333;
+  color: #cccccc;
+  height: 300px;
+  margin: 100px 0px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.footer-log {
+  width: 10rem;
+  height: 5rem;
+  margin-top: 1rem;
+  margin-right: 3rem;
+}
+
+.footer-info {
+  font-size: 1.3rem;
+  word-break: keep-all;
+}
